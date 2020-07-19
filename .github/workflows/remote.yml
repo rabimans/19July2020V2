@@ -26,7 +26,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.PORT }}
           script: whoami
-    jobs3:
+  jobs3:
       name: transfering files using SCP
       runs-on: ubuntu-latest
       steps:  
